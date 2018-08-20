@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.javaninja.springboot.springboot.BookControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.728 s - in com.javaninja.springboot.springboot.BookControllerTest
