@@ -1,9 +1,15 @@
 version: 0.2
 
 phases:
-  build:
+  pre_build:
     commands:
       - echo Building...
+  build:
+    commands:
+      mvn test
+  post_build:
+    commands:
+      - mvn package
 
 cache:
   paths:
