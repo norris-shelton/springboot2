@@ -59,14 +59,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.10.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>check</goal><!-- run PMD - source code analyzer -->
-                            <goal>cpd-check</goal><!-- run CPD - Copy Paste Detector -->
-                        </goals>
-                    </execution>
-                </executions>
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>check</goal>&lt;!&ndash; run PMD - source code analyzer &ndash;&gt;-->
+                            <!--<goal>cpd-check</goal>&lt;!&ndash; run CPD - Copy Paste Detector &ndash;&gt;-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
                 <configuration>
                     <verbose>true</verbose>
                     <linkXRef>false</linkXRef>
