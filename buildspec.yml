@@ -1,9 +1,9 @@
 version: 0.2
 
 phases:
-  pre_build:
-    commands:
-      - echo Building...
+#  pre_build:
+#    commands:
+#      - echo Building...
   build:
     commands:
       mvn test
